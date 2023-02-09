@@ -1,0 +1,14 @@
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.exe
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.deps.json
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.runtimeconfig.json
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.runtimeconfig.dev.json
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.dll
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\bin\Debug\netcoreapp3.1\ExpenditureDB.pdb
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.csproj.AssemblyReference.cache
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.AssemblyInfoInputs.cache
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.AssemblyInfo.cs
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.csproj.CoreCompileInputs.cache
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.dll
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.pdb
+C:\Users\tonih\Developing\ExpenditureDB\ExpenditureDB\obj\Debug\netcoreapp3.1\ExpenditureDB.genruntimeconfig.cache
