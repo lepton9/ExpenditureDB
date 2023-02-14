@@ -315,7 +315,7 @@ namespace ExpenditureDB
             
         }
 
-        // Do index array and loop and delete every entry with given indexes
+
         public static void Delete()
         {
             Console.Write("Which entries would you like to delete? > ");
@@ -327,20 +327,50 @@ namespace ExpenditureDB
         public static void DeleteEntries(String entryIndexes)
         {
             String[] ind = entryIndexes.Split(' ', ',', '|', '/');
-            List<int> indexes = new List<int>();
-            foreach (String index in ind)
+            int[] indexes = ParseStringArrayToInt(ind);
+            if (indexes == null)
+            {
+                Console.WriteLine("The given indexes were not integers!");
+                return;
+            }
+            int[] sortedInd = DistictSorted(indexes);
+            foreach (int i in sortedInd)
+            {
+                db.DeleteAt(i);
+            }
+            Console.WriteLine("Entries were deleted succesfully!");
+        }
+
+        public static int[] ParseStringArrayToInt(String[] indexes)
+        {
+            int[] ind = new int[indexes.Length];
+            for (int i = 0; i < indexes.Length; i++)
             {
                 try
                 {
-                    db.DeleteAt(int.Parse(index));
+                    ind[i] = int.Parse(indexes[i]);
                 }
                 catch
                 {
-                    Console.WriteLine("The given indexes were not integers!");
-                    return;
+                    return null;
                 }
             }
-            Console.WriteLine("Entries were deleted succesfully!");
+            return ind;
+        }
+
+        public static int[] DistictSorted(int[] ar)
+        {
+            Array.Sort(ar);
+            Array.Reverse(ar);
+            List<int> dist = new List<int>();
+            for (int i = 0; i < ar.Length; i++)
+            {
+                if (i != 0 && ar[i] != ar[i - 1])
+                {
+                    dist.Add(ar[i]);
+                }
+            }
+            return dist.ToArray();
         }
 
         public static void Run()
@@ -430,3 +460,6 @@ namespace ExpenditureDB
 
     }
 }
+
+
+// Implement to be able to do show all or new + 200 "newEntry"
